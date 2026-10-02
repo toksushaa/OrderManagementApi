@@ -1,0 +1,106 @@
+/* ===== Розово-кошачья тема ===== */
+
+body {
+    background: #fff0f5 !important; /* нежно-розовый фон */
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* Навигация */
+.navbar.bg-dark {
+    background: linear-gradient(90deg, #ff6fa5, #ff8fc0) !important;
+    box-shadow: 0 4px 12px rgba(255, 111, 165, 0.3);
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: #ff6fa5 !important;
+    border-color: #ff6fa5 !important;
+}
+.btn-primary:hover {
+    background-color: #e85a90 !important;
+    border-color: #e85a90 !important;
+}
+
+.btn-warning {
+    background-color: #ffb3d1 !important;
+    border-color: #ffb3d1 !important;
+    color: #4a1c2e !important;
+}
+.btn-warning:hover {
+    background-color: #ff9ac3 !important;
+    border-color: #ff9ac3 !important;
+}
+
+.btn-outline-light {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.btn-outline-light:hover {
+    background-color: #fff !important;
+    color: #ff6fa5 !important;
+}
+
+.btn-success {
+    background-color: #ff6fa5 !important;
+    border-color: #ff6fa5 !important;
+}
+
+/* Карточки товаров */
+.card {
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(255, 111, 165, 0.35) !important;
+}
+
+.card-title {
+    color: #c93f75;
+    font-weight: 600;
+}
+
+.text-primary {
+    color: #e85a90 !important;
+}
+
+/* Строка поиска */
+.form-control:focus {
+    border-color: #ff6fa5;
+    box-shadow: 0 0 0 0.2rem rgba(255, 111, 165, 0.25);
+}
+
+/* Бейдж */
+.badge.bg-secondary {
+    background-color: #ff8fc0 !important;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #c93f75;
+}
+
+/* Котики-украшения */
+.cat-emoji {
+    display: inline-block;
+    animation: purr 2s infinite ease-in-out;
+}
+
+@keyframes purr {
+    0%, 100% { transform: scale(1) rotate(-3deg); }
+    50%      { transform: scale(1.15) rotate(3deg); }
+}
+
+/* Ссылки */
+a {
+    color: #e85a90;
+}
+a:hover {
+    color: #c93f75;
+}
